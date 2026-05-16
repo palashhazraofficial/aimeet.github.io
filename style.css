@@ -1,0 +1,202 @@
+.navContainer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    border: 2px solid rgb(24,49,83);
+    height:70px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgba(215, 221, 230, 0.459);
+    display: flex;
+    align-items: center;
+}
+
+.navname {
+    height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navjoin {
+    height: 70px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.logo {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    background-image: url(appIcon.ico);
+    background-size: cover;
+    margin: 8px;
+}
+
+.name {
+    height: 50px;
+    width: 100px;
+    font-family:sans-serif;
+    color: rgb(24,49,83);
+    font-size: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betaTag {
+    border: 2px solid rgb(24,49,83);
+    border-radius: 5px;
+    height: 20px;
+    width: 40px;
+    font-family:sans-serif;
+    color: rgb(240, 241, 243);
+    background-color: rgb(11, 101, 219);
+    font-size: 11PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navjoinbeta {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(24,49,83);
+    border-radius: 50%;
+}
+
+.content {
+    height: 2750px;
+    width: 100%;
+    background-color: rgba(90, 151, 236, 0.589);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.q-a {
+    height: 2160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heroImg {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(HeroImg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.herotag {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.herosubtag {
+    font-family: sans-serif;
+    color: rgb(24,49,83);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.joinbetabtn {
+    height: 50px;
+    width: 250px;
+    font-family: sans-serif;
+    border: 2px solid rgb(11, 101, 219);
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(11, 101, 219, 0.281);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.questionTag {
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(11, 101, 219);
+    border-radius: 10px;
+}
+
+.question {
+    height: 50px;
+    width: 100%;
+    color: rgb(24,49,83);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer {
+    height: 250px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+}
+
+.footer {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(24,49,83);
+}
+
+.social, .footname, .footversion {
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .answer {
+        font-size: 15px;
+    }
+
+    .heroImg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(HeroImg_mobile.jpg);
+    }
+}
