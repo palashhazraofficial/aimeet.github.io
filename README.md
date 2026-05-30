@@ -10,7 +10,7 @@ AI MEET is a desktop application that helps the user to record audio of online m
 To sign up as a beta tester and help us to improve the app, please visit: https://palashhazraofficial.github.io/aimeet.github.io/
 
 #VERSION
-0.1.4 BETA
+v2.1.0-BETA
 
 #FIRST LAUNCHED
 16-05-2026
